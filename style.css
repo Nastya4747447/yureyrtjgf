@@ -1,0 +1,120 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Стилизация секции с формой */
+#contact-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+}
+
+#contact-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#contact-form label {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus,
+#contact-form select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contact-form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для подвала */
+.site-footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    color: #777;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.site-footer h6 {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.site-footer a {
+    color: #555;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #dd4814;
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .site-footer [class^="col-"] {
+        margin-bottom: 30px;
+    }
+}
